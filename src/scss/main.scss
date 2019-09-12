@@ -2,15 +2,76 @@
 @import "_variables";
 
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
+:root {
+  font-size: 1em;
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  //color: $yellow;
+  background: white;
+  height: 50em;
+  margin: 0 auto;
+  width: 40em;
+  //display: flex;
+  //flex-direction: column;
+  //flex-wrap: nowrap;
+  //align-content: inherit;
+  //align-items: center;
+  //justify-content: flex-start;
+  
+}
+
+.dart{
+  align-items: center;
+  background: whitesmoke;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 50em;
+  position: absolute;
+  width: 40em;
+}
+
+.peak{
+  background: orangered;
+  border-top-left-radius: 45em 90em;
+  border-top-right-radius: 45em 90em;
+  //border-bottom-left-radius: 30em 46em;
+  //border-bottom-right-radius: 30em 46em;
+  height: 9em;
+  margin-top: 7em;
+  //position: absolute;
+  width: 16em;
+  z-index: 1;
+}
+
+.head{
+  align-items: center;
+  background: yellow;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 25em;
+  //margin: 0 auto;
+  //position: absolute;
+  
+  width: 20em;
+}
+
+.mycka{
+  background: pink;//$space;
+  border-top-left-radius: 43em 50em;
+  border-top-right-radius: 43em 50em;
+  border-bottom-left-radius: 30em 46em;
+  border-bottom-right-radius: 30em 46em;
+  height: 10em;
+  margin-top: 2rem;
+  position: absolute;
+  width: 10em;
+  z-index: 0;
+}
+
+.space{
+  background: $space;
+  height: 50em;
+  position: absolute;
+  width: 40em;
 }
